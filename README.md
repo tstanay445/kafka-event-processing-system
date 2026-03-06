@@ -14,7 +14,7 @@ A distributed messaging backend built with **Django REST Framework and Apache Ka
 
 This system processes messages asynchronously using Kafka topics and consumer groups, enabling scalable and decoupled backend services.
 
----
+```
 
 # Architecture
 
