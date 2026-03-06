@@ -1,12 +1,8 @@
-```
-
 # Kafka Event-Driven Messaging System
 
 A distributed messaging backend built with **Django REST Framework and Apache Kafka** demonstrating **event-driven architecture** with multiple independent consumer services.
 
 This system processes messages asynchronously using Kafka topics and consumer groups, enabling scalable and decoupled backend services.
-
-```
 
 # Architecture
 
