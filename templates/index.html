@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kafka Messaging System</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:50px;
+    border-radius:15px;
+    text-align:center;
+    width:400px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+p{
+    color:#666;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+a{
+    text-decoration:none;
+}
+
+button{
+    width:150px;
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.register{
+    background:#667eea;
+    color:white;
+}
+
+.login{
+    background:#4CAF50;
+    color:white;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Messaging System</h1>
+<p>Kafka + Django Event Driven Messaging</p>
+
+<div class="buttons">
+
+<a href="/api/register/">
+<button class="register" href = ''>Register</button>
+</a>
+
+<a href="/api/login/">
+<button class="login">Login</button>
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>

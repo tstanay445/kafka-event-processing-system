@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.rest/
+.env
+.env.*
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Django migrations (optional if you want them tracked)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Kafka / logs
+logs.txt
+*.log
+
+# Docker
+*.pid
+*.seed
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# build
+dist/
+build/
+*.egg-info/
+
+# node (if frontend later)
+node_modules/
