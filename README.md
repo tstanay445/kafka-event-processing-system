@@ -18,9 +18,9 @@ API[Django REST API\nMessage Producer]
 
 Kafka[(Kafka Topic\nmessages)]
 
-Storage[Storage Consumer\nPersist Messages]
-Analytics[Analytics Consumer\nUser Message Metrics]
-Logging[Logging Consumer\nEvent Logging]
+Storage[Storage Consumer \n Persist Messages]
+Analytics[Analytics Consumer \n User Message Metrics]
+Logging[Logging Consumer \n Event Logging]
 
 DB[(Database)]
 
