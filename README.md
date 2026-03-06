@@ -263,22 +263,6 @@ Send message → Kafka event → Consumers process event
 Tanay Shukla
 
 ```
-
----
-
-# Why this README is strong
-
-It includes:
-
-✔ **Architecture diagram (visual)**  
-✔ **Clear explanation of event-driven design**  
-✔ **Tech stack**  
-✔ **Workflow explanation**  
-✔ **Example event**  
-✔ **Project structure**
-
-This makes your repo look **very professional to recruiters**.
-
 ---
 
 If you want, I can also give you a **much cooler architecture diagram version (with Kafka partitions and consumer groups)** that looks even more impressive in the README.
