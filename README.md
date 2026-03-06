@@ -21,7 +21,7 @@ Kafka[(Kafka Topic<br>messages)]
 Storage[Storage Consumer<br>Persist Messages]
 Analytics[Analytics Consumer<br>User Message Metrics]
 Logging[Logging Consumer<br>Event Logging]
-LogFile [Log tracking file]
+LogFile[Log tracking file]
 DB[(Database)]
 
 Client -->|POST /api/messages| API
