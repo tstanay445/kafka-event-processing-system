@@ -1,13 +1,4 @@
-Below is a **polished README** you can paste directly into your repo.
-It starts with a **clean architecture diagram** that looks great on GitHub using Mermaid.
 
-GitHub automatically renders Mermaid diagrams now, so this will appear as a **visual system diagram**.
-
----
-
-# README.md
-
-```markdown
 # Kafka Event-Driven Messaging System
 
 A distributed messaging backend built with **Django REST Framework and Apache Kafka** demonstrating **event-driven architecture** with multiple independent consumer services.
