@@ -14,13 +14,13 @@ This system processes messages asynchronously using Kafka topics and consumer gr
 flowchart LR
 
 Client[Client Application]
-API[Django REST API\nMessage Producer]
+API[Django REST API<br>Message Producer]
 
-Kafka[(Kafka Topic\nmessages)]
+Kafka[(Kafka Topic<br>messages)]
 
-Storage[Storage Consumer \n Persist Messages]
-Analytics[Analytics Consumer \n User Message Metrics]
-Logging[Logging Consumer \n Event Logging]
+Storage[Storage Consumer<br>Persist Messages]
+Analytics[Analytics Consumer<br>User Message Metrics]
+Logging[Logging Consumer<br>Event Logging]
 
 DB[(Database)]
 
@@ -34,7 +34,7 @@ Kafka --> Logging
 Storage -->|Write| DB
 Analytics -->|Compute Stats| Analytics
 Logging -->|Append Logs| Logging
-````
+```
 
 ---
 
