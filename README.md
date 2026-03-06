@@ -15,13 +15,13 @@ flowchart LR
 
 Client[Client Application]
 API[Django REST API<br>Message Producer]
-
+Update[Update Counter]
 Kafka[(Kafka Topic<br>messages)]
 
 Storage[Storage Consumer<br>Persist Messages]
 Analytics[Analytics Consumer<br>User Message Metrics]
 Logging[Logging Consumer<br>Event Logging]
-
+LogFile [Log tracking file]
 DB[(Database)]
 
 Client -->|POST /api/messages| API
@@ -32,8 +32,9 @@ Kafka --> Analytics
 Kafka --> Logging
 
 Storage -->|Write| DB
-Analytics -->|Compute Stats| Analytics
-Logging -->|Append Logs| Logging
+Analytics -->|Compute Stats| Update
+Update --> Analytics
+Logging -->|Append Logs| LogFile
 ```
 
 ---
